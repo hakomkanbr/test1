@@ -1,0 +1,76 @@
+#navbar-part1{
+    width: 100%;
+    height: 50px;
+    background-color: red;
+    border:5px solid black;
+}
+
+.slider
+{
+    margin: 40px auto;
+    width: 600px;
+}
+
+
+.slide{
+    width: 600px;
+    height: 350px;
+    overflow: hidden;
+    float: left;
+    position: relative;
+}
+.slide img{
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.prev{
+    width: 40px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 49px;
+    position: relative;
+    top: 176px;
+    left: -71px;
+}
+.next{
+    width: 40px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 49px;
+    position: relative;
+    top: -193px;
+    right: -79px;
+    float: right;
+}
+.slide .show
+{
+    display: inline-block;
+}
+ul{
+    margin: auto;
+    margin-top: 40px;
+    width: 600px;
+}
+ul li{
+    list-style-type: none;
+    cursor: pointer;
+    width: 120px;
+    height: 100px;
+    float: left;
+}
+ul li img{
+    width: 100%;
+    height: 100%;
+    display: inline;
+    float: left;
+}
+
+li.active{
+    background-color: black;
+    width: 140px;
+    height: 110px;
+    position: relative;
+    transition: all 1s linear ease-in;
+}
